@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: -4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: white;
+    /* font-size:x-large; */
+}
+
+p {
+    font-size: large;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 300;
+    color: white;
+}
+
+fieldset {
+    max-width: 40%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 8px;
+    border: 0.4px solid rgba(27, 27, 50, 0.8);
+}
+
+.in-field{
+    padding-left: 10px;
+}
+
+input,
+select,
+label,
+textarea {
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+input {
+    color: #495057;
+}
+
+select {
+    color: #495057;
+    min-width: 94%;
+}
+
+.tex {
+    width: 90%;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+
+.inline {
+    display: inline;
+    /* padding:0px; */
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    vertical-align: middle;
+}
+
+.checkin {
+    display: inline;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.op {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    
+}
+
+/* label{
+    display: block;
+} */
+
+.last {
+    margin-bottom: 20px;
+}
+
+.sub {
+    margin-top: 50px;
+    width: 97%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #37af65;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+}

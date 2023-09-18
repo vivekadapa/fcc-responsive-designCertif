@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Survey Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <fieldset>
+        <form action="" class="in-field">
+            <label>Name<input class="tex" type="text" placeholder="Enter your name"></label>
+            <label>Email<input class="tex" type="email" placeholder="Enter your Email"></label>
+            <label>Age
+                (optional)<input class="tex" type="number" placeholder="Age" min="10" max="100"></label>
+            <label>Which option best describes your current role?<select class="tex">
+                    <option class="op">Select current role</option>
+                    <option class="op">Student</option>
+                    <option class="op">Full Time Job</option>
+                    <option class="op">Full Time Learner</option>
+                    <option class="op">Prefer Not to say</option>
+                    <option class="op">Other</option>
+                </select></label>
+            <label>Would you recommend freeCodeCamp to a friend?
+                <label for="def"><input class="inline" type="radio" id="def" name="recc"> Definitely</label>
+                <label for="mb"><input class="inline" type="radio" id="mb" name="recc"> May be</label>
+                <label for="recc"><input class="inline" type="radio" id="recc" name="recc"> Not Sure</label>
+            </label>
+
+            <label>What is your favorite feature of freeCodeCamp?<select class="tex">
+                    <option class="op">Select an option</option>
+                    <option class="op">Challenges</option>
+                    <option class="op">Projects</option>
+                    <option class="op">Community</option>
+                    <option class="op">Open Source</option>
+                </select></label>
+            <label>What would you like to see improved? (Check all that apply)
+                <label for="fep"> <input class="checkin" type="checkbox" id="fep">Front-end Projects</label>
+                <label for="bed"> <input class="checkin" type="checkbox" id="bed">Back-end Projects</label>
+                <label for="dv"> <input class="checkin" type="checkbox" id="dv">Data Visualisation</label>
+                <label for="Ch"> <input class="checkin" type="checkbox" id="Ch">Challenges</label>
+                <label for="osc"> <input class="checkin" type="checkbox" id="osc">Open Source Community</label>
+                <label for="ghr"> <input class="checkin" type="checkbox" id="ghr">Gitter help rooms</label>
+                <label for="v"> <input class="checkin" type="checkbox" id="v">Videos</label>
+                <label for="cm"> <input class="checkin" type="checkbox" id="cm">City Meetups</label>
+                <label for="w"> <input class="checkin" type="checkbox" id="w">Wiki</label>
+                <label for="f"> <input class="checkin" type="checkbox" id="f">Forum</label>
+                <label for="ac"> <input class="checkin" type="checkbox" id="ac">Additional Courses</label>
+            </label>
+            <label class="last">Any comments or suggestions?
+                <textarea placeholder="Enter your comment here..." rows="6" cols="75"></textarea>
+            </label>
+            <input class="sub" type="submit">
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
